@@ -1,33 +1,104 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <style media="screen" src="/CSS/index.css"></style>
-        <title>Primer sitio web</title>
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <style media="screen" src="../CSS/index.css"></style>
+    <title>Primer sitio web</title>
+</head>
+
+<body>
+    <div class="Cont1">
         <h1 id="Header">Hola mundo</h1>
         <a href="https://github.com/YoSoyIo" target="_blank" title="Repositorio de este proyecto">github</a>
-        <p align = "center">Hola muy buen dia este es un texto de prueba para poder mostrar como se ve un elemento de este tipo</p>
+        <hr>
+        <a href="https://github.com/YoSoyIo">
+            <svg width="200" height="200" style="border: 2px solid black">
+                <circle cx="100" cy="100" r="95" fill="transparent" stroke="black">
+                </circle>
+            </svg>
+        </a>
+        <p align="center">Hola muy buen dia este es un texto de prueba para poder mostrar como se ve un elemento de este tipo</p>
         <hr>
         <a href="mailto: yosoyio057@gmail.com">Correo</a>
         <hr>
         <a href="#Header">Inicio</a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>Copyright (c) 2018 Copyright Holder All Rights Reserved.</p>
         <p><em> <small> <mark>Lorem ipsum dolor sit amet,</mark> </small> </em> <br><br><br><br>
-            consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="Cont2">
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <p>
-            10 <sup>25</sup>  H<sub>2</sub>O
+            10 <sup>25</sup> H<sub>2</sub>O
+            <br>
+        <table>
+            <tr>
+                <td>
+                    <ol type="I">
+                        <li>Primer elemento</li>
+                        <li>Segundo elemento</li>
+                        <li>Tercer elemento</li>
+                        <li>Cuarto elemento</li>
+                    </ol>
+                </td>
+                <td>
+                    <ul>
+                        <li>Primer elemento</li>
+                        <li>Segundo elemento</li>
+                        <li>Tercer elemento</li>
+                        <li>Cuarto elemento</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <dl class="">
+                    <dt>Uno</dt>
+                    <dd>Elemento 1</dd>
+                    <dt>Dos</dt>
+                    <dd>Elemento 2</dd>
+                    <dt>Tres</dt>
+                    <dd>Elemento 3</dd>
+                    <dt>Cuatro</dt>
+                    <dd>Elemento 4</dd>
+                </dl>
+            </tr>
+        </table>
         </p>
         <p>
             Anidacion <br> <mark> <strong> <em>Hola<sup>10</sup> </em> </strong> </mark>
         </p>
-    </body>
-    <footer>
+        <p>
+            &lt;&trade;
+            <hr>
+            Selecciona una opcion
+            <select class="" name="dispositivo" multiple>
+                <option value="Uno">Uno</option>
+                <option value="Dos">Dos</option>
+                <option value="Tres">Tres</option>
+                <option value="Cuatro">Cuatro</option>
+            </select>
+            <hr>
+            <fieldset>
+                <!--Para discapacitados visuales-->
+                <label for="">Uno</label>
+                <input type="text" name="" value="">
+                <legend>Informacion importante</legend>
+            </fieldset>
+        </p>
+    </div>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30158.287413834078!2d-99.5971737191697!3d19.11704504751413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd928635b3dad1%3A0xd9a64a0c04d9d151!2sCECyTEM%20Plantel%20Tenango%20del%20Valle!5e0!3m2!1ses-419!2smx!4v1657853934067!5m2!1ses-419!2smx"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" name="Cuadro"></iframe>
+</body>
+<footer>
+    <div class="Cont3">
         <blockquote cite="https://github.com/YoSoyIo">
             Clic para mas
         </blockquote>
@@ -35,7 +106,11 @@
             Retomando lo que menciono
         </q>
         <address class="">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </address>
-    </footer>
+    </div>
+    <script type="text/javascript" src="../JS/index.js"></script>
+</footer>
+
 </html>
